@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+#subscription
+{
+    border: 2px solid red;
+    border-radius: 12px;
+    text-align: left;
+    padding: 31px;
+    background-color: white;
+    margin: 18px;
+}
+.box
+{
+    display: flex;
+}
+.box p{
+    margin-top: 36px;
+}
+.top h2{
+    color: #df8005;
+}
+button
+{
+    border: 2px solid;
+    border-radius: 12px;
+    text-align: left;
+    /* padding: 31px; */
+    background: white;
+    width: 212px;
+    height: 40px;
+    text-align: center;
+    background: #d8ebea;
+    color: grey;
+    border: 1px solid;
+}
+ul li{
+    list-style: none;
+    margin: 12px;
+    margin-left: -35px;
+}
+ul li:before {
+    content: '✓';
+    color: orange;
+  }
+   .mid1 ul li:before {
+    content: '✓';
+    color: deepskyblue;
+  }
+  .mid2 ul li:before {
+    content: '✓';
+    color: green;
+  }
+  .mainbody{
+    display: flex;
+  }
+  .low
+  {text-align: center;
+  }
